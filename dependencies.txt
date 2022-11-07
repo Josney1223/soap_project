@@ -1,0 +1,4 @@
+django
+spyne
+lxml
+zeep
