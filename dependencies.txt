@@ -2,3 +2,5 @@ django
 spyne
 lxml
 zeep
+pandas
+openpyxl
