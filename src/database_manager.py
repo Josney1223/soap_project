@@ -26,7 +26,7 @@ def insert_order(nome: str, pedido: str) -> str:
 def update_order(index: int, status: str) -> str:
     
     df: pd.DataFrame = load_database()
-    if index > len(df.index): return "Cancelado: Index fora de alcance"
+    if index > len(df.index): return "Operacao cancelada: Index fora de alcance"
     
     index -= index    
     df.loc[index, "Status"] = status
