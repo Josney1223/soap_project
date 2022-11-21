@@ -22,13 +22,27 @@ Saiba mais em https://www.python.org/
 
 # Instalação
 
-Usar o comando no diretório `pip install -r dependencies.txt`.
+Usar o comando abaixo no diretório para intalar as dependências:
+
+```sh
+pip install -r dependencies.txt
+```
 
 # Utilização
 
 - Abrir dois terminais distindos na raiz do projeto
-- Usar o comando `python app.py` para inicializar o servidor
-- Usar o comando `python client.py` para inicializar o cliente
+- Para inicializar o servidor use o comando:
+ 
+```sh
+  python app.py
+```
+
+- Para inicializar o cliente use o comando:
+
+```sh
+  python client.py`
+```
+
 - Verificar as log's
 
 # Funcionamento
