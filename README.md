@@ -16,13 +16,19 @@ Pedro Pieragnoli Marin
 
 # Pré-Requisitos
 
-Ter instalado no dispositivo o interpretador Python 3 ou superior.
+Ter instalado no dispositivo o interpretador Python 3.x.
 
 Saiba mais em https://www.python.org/
 
 # Instalação
 
 Usar o comando no diretório `pip install -r dependencies.txt`.
+
+# Recursos
+
+- `hello_client.service.fazer_pedido(nome, pedido)` - efetua um pedido
+- `ver_pedidos()` - imprime os pedidos
+- `atualiza_pedido(pedido, status)` - altera um pedido
 
 # Utilização
 
